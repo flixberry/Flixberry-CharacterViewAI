@@ -1,6 +1,6 @@
 # Flixberry-CharacterViewAI
 
-Flixberry CharacterView AI transforms a single character image into four playful views—front, back, left, and right—powered by Chrome’s built-in AI. It runs entirely in the browser with no cloud, no backend, and no setup designed to help creators work faster and more intuitively.
+Flixberry CharacterView AI transforms a single character image into four playful views front, back, left, and right powered by Chrome’s built-in AI. It runs entirely in the browser with no cloud, no backend, and no setup designed to help creators work faster and more intuitively.
 
 Whether you're building manhua, webtoons, manga, or animated content, this tool streamlines character design and saves hours of manual work.
 
