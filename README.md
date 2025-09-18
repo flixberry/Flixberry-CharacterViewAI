@@ -32,6 +32,14 @@ Creating consistent multi-angle character views is time-consuming and repetitive
 
 ---
 
+## 🧠 API Readiness Note
+
+Flixberry CharacterView AI is scaffolded for Chrome’s Prompt API powered by Gemini Nano. This feature is currently in Origin Trial (Chrome 139–144) and may not be available in all environments.
+
+The application includes a valid Origin Trial token and gracefully falls back to mock views when the API is unavailable. Once the API is publicly exposed, the app will automatically switch to real-time image generation.
+
+---
+
 ## 🚀 How to Run Locally
 
 1. Clone this repository  
@@ -73,4 +81,3 @@ This project is licensed under the [MIT License](LICENSE).
 - Expanded support for content creators
 
 ---
-

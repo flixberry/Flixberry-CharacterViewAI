@@ -2,6 +2,8 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="origin-trial" content="Arba/apJET5TfJ9rvNDWjR3LaMj/VuHoRk4qVnVQPd3OnMqDgk64bSCB4i+PTP11DAVu+A/VENkl3JJ13/JxKw8AAAB0eyJvcmlnaW4iOiJodHRwczovL2ZsaXhiZXJyeS5jb206NDQzIiwiZmVhdHVyZSI6IkFJUHJvbXB0QVBJTXVsdGltb2RhbElucHV0IiwiZXhwaXJ5IjoxNzc0MzEwNDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZX0=">
+
   <title>CharacterView AI | Flixberry</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -34,6 +36,15 @@
       const preview = document.getElementById('preview');
       preview.src = imageData;
       preview.style.display = 'block';
+
+
+      // ✅ Insert API status banner
+        const apiStatus = document.createElement('div');
+        apiStatus.textContent = window.promptApiGeminiNano ? "Chrome AI detected ✅" : "Chrome AI not available ❌";
+        apiStatus.style.marginTop = "10px";
+        apiStatus.style.fontWeight = "bold";
+        apiStatus.style.color = "#333";
+        document.body.insertBefore(apiStatus, document.getElementById('generated-views'));
 
       const prompt = `Generate front, back, left, and right views of this character in cartoon style.`;
 
